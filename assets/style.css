@@ -1,7 +1,92 @@
+/* FONDO DE LA PÁGINA */
 body {
     background-image: url("img/donpedro.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    min-height: 100vh;
+
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+/* CABECERA */
+.header {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+
+.header h1 {
+    color: #f5c542;
+}
+
+.header a {
+    color: white;
+}
+
+
+/* SECCIÓN PRINCIPAL */
+.hero {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 30px;
+    margin: 30px;
+}
+
+.hero h2 {
+    color: #f5c542;
+}
+
+
+/* BOTÓN */
+.hero button {
+    background-color: #f5c542;
+    color: black;
+
+    border: none;
+    padding: 12px 25px;
+
+    cursor: pointer;
+}
+
+
+/* SERVICIOS */
+.servicios {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    margin: 30px;
+}
+
+.servicios h2 {
+    color: #f5c542;
+}
+
+.servicio {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.servicio h3 {
+    color: #f5c542;
+}
+
+
+/* SOBRE NOSOTROS */
+.nosotros {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    margin: 30px;
+}
+
+.nosotros h2 {
+    color: #f5c542;
+}
+
+
+/* PIE DE PÁGINA */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
 }
